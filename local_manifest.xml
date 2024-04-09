@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Remote definitions -->
+	<remote name="github" fetch="https://github.com" />
+	<remote name="gitlab" fetch="https://gitlab.com" />
+
+	<!-- Device Trees -->
+
+	<project path="device/xiaomi/veux" name="Subhashis2007/device_xiaomi_veux" remote="github" revision="fourteen" clone-depth="1" />
+	<project path="kernel/xiaomi/sm6375" name="Subhashis2007/kernel_xiaomi_sm6375" remote="github" revision="main" clone-depth="1" />
+	<project path="device/xiaomi/veux-kernel" name="Subhashis2007/device_xiaomi_veux-kernel" remote="github" revision="thirteen" clone-depth="1" />
+	<project path="vendor/xiaomi/veux" name="Subhashis2007/vendor_xiaomi_veux" remote="gitlab" revision="fourteen" clone-depth="1" />
+	<project path="vendor/xiaomi/miuicamera" name="Positron-B/vendor_xiaomi_miuicamera" remote="github" revision="main" clone-depth="1" />
+	<project path="vendor/xiaomi/miuicamera-veux" name="Positron-B/vendor_xiaomi_miuicamera-veux" remote="github" revision="main" clone-depth="1" />
+	<project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="github" revision="udc" clone-depth="1" />
+
+
+</manifest>
