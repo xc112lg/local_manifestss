@@ -13,7 +13,7 @@
 	<project path="vendor/xiaomi/veux" name="Subhashis2007/vendor_xiaomi_veux" remote="glab" revision="fourteen" />
 	<project path="vendor/xiaomi/miuicamera" name="Positron-B/vendor_xiaomi_miuicamera" remote="ghub" revision="main" />
 	<project path="vendor/xiaomi/miuicamera-veux" name="Positron-B/vendor_xiaomi_miuicamera-veux" remote="ghub" revision="main" />
-	<project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="ghub" revision="udc" />
+	<project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="ghub" revision="fourteen" />
 
 
 </manifest>
