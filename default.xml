@@ -8,7 +8,7 @@
 
 	<!-- Device Trees -->
 
-	<project path="device/xiaomi/veux" name="Subhashis2007/device_xiaomi_veux" remote="ghub" revision="fourteen" />
+	<project path="device/xiaomi/veux" name="Subhashis2007/device_xiaomi_veux" remote="ghub" revision="X" />
 	<project path="kernel/xiaomi/sm6375" name="Subhashis2007/kernel_xiaomi_sm6375" remote="ghub" revision="main" clone-depth="1" />
 	<project path="device/xiaomi/veux-kernel" name="Subhashis2007/device_xiaomi_veux-kernel" remote="ghub" revision="thirteen" clone-depth="1" />
 	<project path="vendor/xiaomi/veux" name="Subhashis2007/vendor_xiaomi_veux" remote="glab" revision="fourteen" />
