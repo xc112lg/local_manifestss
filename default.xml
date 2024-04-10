@@ -4,6 +4,7 @@
 	<!-- Remote definitions -->
 	<remote name="ghub" fetch="https://github.com" />
 	<remote name="glab" fetch="https://gitlab.com" />
+	<remote name="halogenos" fetch="https://git.halogenos.org" />
 
 	<!-- Device Trees -->
 
@@ -13,7 +14,7 @@
 	<project path="vendor/xiaomi/veux" name="Subhashis2007/vendor_xiaomi_veux" remote="glab" revision="fourteen" />
 	<project path="vendor/xiaomi/miuicamera" name="Positron-B/vendor_xiaomi_miuicamera" remote="ghub" revision="main" />
 	<project path="vendor/xiaomi/miuicamera-veux" name="Positron-B/vendor_xiaomi_miuicamera-veux" remote="ghub" revision="main" />
-	<project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="ghub" revision="udc" />
+        <project path="hardware/xiaomi" name="halogenOS/android_hardware_xiaomi" remote="halogenos" revision="XOS-14.0" />
 
 
 </manifest>
