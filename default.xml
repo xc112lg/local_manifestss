@@ -13,12 +13,11 @@
 	<project path="device/mediatek/sepolicy_vndr" name="realme3-devs/android_device_mediatek_sepolicy_vndr" remote="ghub" revision="13" />
 
         <!-- Remove unpatched projects -->
-        <remove-project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-        <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-        <remove-project path="build/make" name="platform/build" groups="pdk" />
+        <remove-project name="platform/frameworks/opt/net/ims" />
+        <remove-project name="platform/external/selinux" />
+        <remove-project name="platform/build" />
 
 	<!--Fetch patched projects -->
-
 	<project path="external/selinux" name="Subhashis2007/derp_external_selinux" remote="ghub" revision="13" />
 	<project path="frameworks/opt/net/ims" name="Subhashis2007/derp_frameworks_net_opt_ims" remote="ghub" revision="13" />
 	<project path="build/make" name="Subhashis2007/build" remote="ghub" revision="13" />
