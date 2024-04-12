@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Remote definitions -->
+	<remote name="ghub" fetch="https://github.com" />
+	<remote name="glab" fetch="https://gitlab.com" />
+
+	<!-- Device Trees -->
+	<project path="device/realme/RMX1821" name="Subhashis2007/android_device_realme_RMX1821" remote="ghub" revision="derp" />
+	<project path="kernel/realme/RMX1821" name="realme3-devs/android_kernel_realme_RMX1821" remote="ghub" revision="PixelOS" clone-depth="1" />
+	<project path="vendor/realme/RMX1821" name="realme3-devs/android_vendor_realme_rmx1821" remote="ghub" revision="13" />
+	<project path="vendor/realme/RMX1821-ims" name="realme3-devs/android_vendor_realme_rmx1821-ims" remote="ghub" revision="PixelOS" />
+	<project path="device/mediatek/sepolicy_vndr" name="realme3-devs/android_device_mediatek_sepolicy_vndr" remote="ghub" revision="13" />
+
+        <!-- Remove unpatched projects -->
+	<remove-project name="external/selinux" />
+	<remove-project name="frameworks/opt/net/ims" />
+	<remove-project name="build/make" />
+
+	<!--Fetch patched projects -->
+
+	<project path="external/selinux" name="Subhashis2007/derp_external_selinux" remote="ghub" revision="13" />
+	<project path="frameworks/opt/net/ims" name="Subhashis2007/derp_frameworks_net_opt_ims" remote="ghub" revision="13" />
+	<project path="build/make" name="realme3-devs/android_device_mediatek_sepolicy_vndr" remote="ghub" revision="13" />
+</manifest>
