@@ -13,9 +13,9 @@
 	<project path="device/mediatek/sepolicy_vndr" name="realme3-devs/android_device_mediatek_sepolicy_vndr" remote="ghub" revision="13" />
 
         <!-- Remove unpatched projects -->
-	<remove-project name="external/selinux" />
-	<remove-project name="frameworks/opt/net/ims" />
-	<remove-project name="build/make" />
+	<remove-project name="DerpFest-AOSP/external_selinux" />
+	<remove-project name="DerpFest-AOSP/frameworks_opt_net_ims" />
+	<remove-project name="DerpFest-AOSP/build" />
 
 	<!--Fetch patched projects -->
 
