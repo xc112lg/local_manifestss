@@ -13,9 +13,9 @@
 	<project path="device/mediatek/sepolicy_vndr" name="realme3-devs/android_device_mediatek_sepolicy_vndr" remote="ghub" revision="13" />
 
         <!-- Remove unpatched projects -->
-        <remove-project name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-        <remove-project name="platform/external/selinux" groups="pdk" />	
-	<remove-project name="platform/build" groups="pdk,sysui-studio" />
+        <remove-project name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+        <remove-project name="external_selinux" groups="pdk" />	
+	<remove-project name="build" groups="pdk,sysui-studio" />
 
 	<!--Fetch patched projects -->
 
