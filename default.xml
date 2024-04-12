@@ -15,7 +15,7 @@
         <!-- Remove unpatched projects -->
         <remove-project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
         <remove-project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-        <remove-project path="build/make" name="platform/build" groups="pdk" >
+        <remove-project path="build/make" name="platform/build" groups="pdk" />
 
 	<!--Fetch patched projects -->
 
